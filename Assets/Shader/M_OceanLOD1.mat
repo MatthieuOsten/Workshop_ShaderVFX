@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Water
+  m_Name: M_OceanLOD1
   m_Shader: {fileID: -6465566751694194690, guid: 858ee34eee1d1a94b91f9e5d09ee8e3d,
     type: 3}
   m_ValidKeywords: []
@@ -148,7 +148,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HightFrequency: 1
-    - _IsOcean: 0
+    - _IsOcean: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
