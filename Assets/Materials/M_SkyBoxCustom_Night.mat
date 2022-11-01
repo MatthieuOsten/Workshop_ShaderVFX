@@ -93,9 +93,9 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _CloudAnimationSpeed: 0.1
-    - _CloudDistance: 192.6
+    - _CloudDistance: 100
     - _CloudFade: 1.95
-    - _CloudIntensity: 5
+    - _CloudIntensity: 1.6
     - _CloudMoveSpeed: 2.28
     - _CloudNoise: 0.1
     - _CloudPower: 3.1
@@ -131,10 +131,10 @@ Material:
     - _ZenithPowerBlend: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CloudColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
+    - _CloudColor: {r: 0.3292542, g: 0.3625067, b: 0.46226418, a: 1}
     - _CloudDir: {r: 1, g: 1, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorSky: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0}
+    - _ColorSky: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HorizonColor: {r: 0.6745283, g: 0.9055157, b: 1, a: 0}
     - _NadirColor: {r: 0, g: 0.42429298, b: 1, a: 0}
