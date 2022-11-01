@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_OceanLOD2
+  m_Name: M_OceanLOD1
   m_Shader: {fileID: -6465566751694194690, guid: 858ee34eee1d1a94b91f9e5d09ee8e3d,
     type: 3}
   m_ValidKeywords: []
@@ -152,8 +152,8 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _QueueControl: 1
-    - _QueueOffset: 0
+    - _QueueControl: 0
+    - _QueueOffset: 2
     - _ReceiveShadows: 1
     - _RefractionSpeed: 1.53
     - _RefractionStrenght: 0.05
@@ -161,7 +161,7 @@ Material:
     - _RipplePower: 20
     - _RippleScale: 500
     - _RippleSpeed: 1
-    - _RippleTransparency: 0.263
+    - _RippleTransparency: 0.065
     - _Smooth: 0.67
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -177,9 +177,9 @@ Material:
     - _ZWrite: 1
     - _useFoam: 1
     - _useGradient: 1
-    - _useRipple: 0
+    - _useRipple: 1
     - _useTextureFoam: 0
-    - _useThreeNormal: 0
+    - _useThreeNormal: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _ClampGradient: {r: 0.3, g: 1, b: 0, a: 0}

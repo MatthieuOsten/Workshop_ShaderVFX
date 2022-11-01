@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_OceanLOD0
+  m_Name: M_LakeLOD0
   m_Shader: {fileID: -6465566751694194690, guid: 858ee34eee1d1a94b91f9e5d09ee8e3d,
     type: 3}
   m_ValidKeywords: []
@@ -28,7 +28,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2999
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -134,16 +134,16 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Displacement: 0.5
+    - _Displacement: 0.01
     - _DistanceDepth: 3.68
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _Float: 3.22
-    - _FoamCutoff: 5
-    - _FoamScale: 10
-    - _FoamSpeed: 0.05
+    - _FoamCutoff: 15
+    - _FoamScale: 15
+    - _FoamSpeed: 0.02
     - _FoamTiling: 5
-    - _FoamTransparency: 0.463
+    - _FoamTransparency: 0.6
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -153,47 +153,47 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: -1
     - _ReceiveShadows: 1
     - _RefractionSpeed: 1.53
     - _RefractionStrenght: 0.05
-    - _RefractionTiling: 2
+    - _RefractionTiling: 0.5
     - _RipplePower: 20
     - _RippleScale: 500
     - _RippleSpeed: 1
     - _RippleTransparency: 0.263
-    - _Smooth: 0.67
+    - _Smooth: 0.56
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 0.02
     - _SrcBlend: 1
-    - _Strenght: 1.32
+    - _Strenght: 5
     - _Surface: 0
     - _TransparencyDepth: 6.58
-    - _WaveAmplitude: 0.5
-    - _WaveSpeed: 1
+    - _WaveAmplitude: 0.05
+    - _WaveSpeed: 0.7
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _useFoam: 1
-    - _useGradient: 1
+    - _useGradient: 0
     - _useRipple: 1
     - _useTextureFoam: 0
     - _useThreeNormal: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _ClampGradient: {r: 0.3, g: 1, b: 0, a: 0}
-    - _ClampTransparency: {r: 0.8, g: 0.98, b: 0, a: 0}
+    - _ClampTransparency: {r: 0.67, g: 0.97, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorDeep: {r: 0.23696157, g: 0.37352383, b: 0.7075472, a: 1}
+    - _ColorDeep: {r: 0.30562478, g: 0.31671536, b: 0.6415094, a: 1}
     - _ColorDepth: {r: 0.04116233, g: 0.081674725, b: 0.3490566, a: 1}
-    - _ColorShallow: {r: 0.40792987, g: 0.77501315, b: 0.9716981, a: 1}
+    - _ColorShallow: {r: 0.373131, g: 0.57891095, b: 0.6132076, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _RefractionSpeed: {r: -0.01, g: 0.01, b: 0, a: 0}
     - _RippleColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SpeedNormal: {r: 0.01, g: -0.01, b: 0, a: 0}
+    - _SpeedNormal: {r: 0.005, g: -0.005, b: 0, a: 0}
     - _Tiling: {r: 5, g: 5, b: 0, a: 0}
     - _TilingNormal: {r: 5, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
