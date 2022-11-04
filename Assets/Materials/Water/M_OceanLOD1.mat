@@ -162,7 +162,7 @@ Material:
     - _RippleScale: 500
     - _RippleSpeed: 1
     - _RippleTransparency: 0.065
-    - _Smooth: 0.67
+    - _Smooth: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -183,7 +183,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _ClampGradient: {r: 0.3, g: 1, b: 0, a: 0}
-    - _ClampTransparency: {r: 0.8, g: 0.98, b: 0, a: 0}
+    - _ClampTransparency: {r: 0.8, g: 0.75, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorDeep: {r: 0.23696157, g: 0.37352383, b: 0.7075472, a: 1}
     - _ColorDepth: {r: 0.04116233, g: 0.081674725, b: 0.3490566, a: 1}

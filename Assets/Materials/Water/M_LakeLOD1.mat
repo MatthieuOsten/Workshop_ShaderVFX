@@ -149,6 +149,7 @@ Material:
     - _GlossyReflections: 0
     - _HightFrequency: 0
     - _IsOcean: 0
+    - _IsShape: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -162,7 +163,7 @@ Material:
     - _RippleScale: 500
     - _RippleSpeed: 1
     - _RippleTransparency: 0.263
-    - _Smooth: 0.56
+    - _Smooth: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -171,6 +172,9 @@ Material:
     - _Strenght: 5
     - _Surface: 0
     - _TransparencyDepth: 6.58
+    - _UseShapeEllipse: 0
+    - _UseShapePolygon: 0
+    - _UseShapeRectangle: 0
     - _WaveAmplitude: 0
     - _WaveSpeed: 0
     - _WorkflowMode: 1
@@ -192,6 +196,7 @@ Material:
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _RefractionSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _RippleColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShapeSize: {r: 0.5, g: 0.5, b: 6, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpeedNormal: {r: 0.005, g: -0.005, b: 0, a: 0}
     - _Tiling: {r: 5, g: 5, b: 0, a: 0}
